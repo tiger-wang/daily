@@ -6,32 +6,32 @@
       public final class Math extends Object
  2. 工作成果
     * abs(arg) : 返回arg绝对值,arg可以是:int,long,float,double.
-      【举例】 Math.abs(-27.86)            == 27.86
+       * 【举例】 Math.abs(-27.86)            == 27.86
               Math.abs(-100.1234)    ==  100.1234
     * ceil(double arg) : 返回>=arg的最小整数.
-      【举例】 Math.ceil(30.4)         == 31.0
+       * 【举例】 Math.ceil(30.4)         == 31.0
               Math.ceil(-8.0989)   == -8.0 
     * floor(double arg) : 返回<=arg最大整数.
-      【举例】 Math.floor(30.4)        == 30.0
+       * 【举例】 Math.floor(30.4)        == 30.0
               Math.floor(-8.0989)   == -9.0
               max(x,y) : 返回x和y中的最大值. 
               min(x,y) : 返回x和y中的最小值.
     * rint(double arg) : 返回最接近arg的整数值. 返回double
-      【举例】 Math.rint(30.4)         == 30.0
+       * 【举例】 Math.rint(30.4)         == 30.0
               Math.rint(30.5)        == 31.0
               Math.rint(30.51)      == 31.0
               Math.rint(-8.0989)   == -8.0
               Math.rint(-8.5)         == -8.0
               Math.rint(-8.5989)   == -9.0
     * round(arg) : 返回最接近arg的整数值.   arg为double时返回long,为float时返回int
-      【举例】 Math.round(30.1)         == 30
+       * 【举例】 Math.round(30.1)         == 30
               Math.round(30.5)        == 31
               Math.round(30.51)      == 31
               Math.round(-8.0989)   == -8
               Math.round(-8.5)         == -8
               Math.round(-8.5989)   == -9
     * random() : 返回一个介于0与1之间的伪随机数.大多数情况下适应Random类产生随机数.
-      【举例】 Math.random()   == 0.83636823562201235
+       * 【举例】 Math.random()   == 0.83636823562201235
     * statem abs
         * static float abs(float a) 
           返回 float 值的绝对值。
