@@ -2,6 +2,7 @@
 ====================
 
 * 安装Android Studio
+
     * ![001](androidstudio/androidstudio_instatll_1.jpg)
     * ![002](androidstudio/androidstudio_instatll_2.jpg)
     * ![003](androidstudio/androidstudio_instatll_3.jpg)
